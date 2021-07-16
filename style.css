@@ -202,8 +202,7 @@ img{
     .nav-link{
         padding: 0.7rem;
     }
-
-    .menu .show{
+    .show{
         left: 0;
     }
  }
