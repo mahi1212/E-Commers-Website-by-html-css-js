@@ -317,10 +317,10 @@ img{
             margin-top: -10rem;
         }
 
-        .hero-content .right img{
-            right: -20%;
+        .hero-content .right img {
+            right: -15%;
+            top: 70%;
         }
-        
     }
 
     
