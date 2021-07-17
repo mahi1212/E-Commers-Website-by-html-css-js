@@ -335,7 +335,7 @@ img{
     .service-center{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-        gap: 5rem;
+        gap: 1rem;
     }
 
     .service{
