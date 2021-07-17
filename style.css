@@ -283,21 +283,6 @@ img{
         }
     }
 
-    @media only screen and (max-width:768px){
-        .hero{
-            height: calc(80vh - 7rem);
-        }
-
-        .hero-content .left{
-            margin-top: -10rem;
-        }
-
-        .hero-content .right img{
-            right: -20%;
-        }
-        
-    }
-
     @media only screen and (max-width:567px){
         .hero{
             height: calc(100vh - 7rem);
@@ -314,17 +299,31 @@ img{
         .hero-content .left h5{
             margin-top: 0.5rem;
         }
-        
-        .hero-content .right{
-            margin-top: -10;
-        }
+
 
         .hero-content .right img{
             width: 100%;
-            height: 35rem;
-            right: -10%;
+            height: 25rem;
+            margin-right: 15%;
         }
     }
+
+    @media only screen and (max-width:768px){
+        .hero{
+            height: calc(80vh - 7rem);
+        }
+
+        .hero-content .left{
+            margin-top: -10rem;
+        }
+
+        .hero-content .right img{
+            right: -20%;
+        }
+        
+    }
+
+    
 
     /* Section */
     
